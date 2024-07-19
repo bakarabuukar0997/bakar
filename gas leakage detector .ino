@@ -1,15 +1,4 @@
-Training Models: Trained Decision Tree, Random Forest, and Logistic Regression models on the training set
-
-
-predicting student performance is crucial for enhancing learning outcomes 
-The goal of this research is to create a supervised machine learning model that can be used to forecast high school students' pass and fail rates on the Somali National Exam. The study aims to develop a prediction algorithm by examining historical data from 2018 and 2019, 
-
-
-In order to produce professional students, inventors, and those who are entrepreneurs, student performance is essential to a nation's progress.
-Increasing national exam failure rates in Somalia have raised serious concerns about the quality of education overall and future prospects for students.
-
-
-Livieris et al. [68] suggested a semi-supervised machine l#include <SoftwareSerial.h>
+#include <SoftwareSerial.h>
 
 SoftwareSerial SIM900(8, 7); // SoftSerial( RX , TX );
 // 8 pin connect to TX of GSM SIM 900 Module
@@ -82,11 +71,4 @@ void makeCall(const char* number) {
   SIM900.println("ATD" + String(number) + ";");
   delay(10000); // Wait for the call to connect
   Serial.println("Call attempt finished");
-}earning approach to predict
-the performance of secondary school students. The approach considered in this review
-included self-training and Yet Another Two-Stage Idea (YATSI). The dataset had performance data of 3716 students collected by Microsoft Showcase School. Each instance in the
-dataset has 12 attributes. The semi-supervised approaches perform well on the data as compared to supervised and unsupervised learning approaches. For better decision-making,
-Nieto et al. [69] compared the performance of SVM and ANN, where 6130 students’ data
-was collected, and after pre-processing and cleaning, 5520 instances with multiple features
-were extracted. KNIME software tool was used for the implementation of SVM and ANN.
-It was realized that the SVM attained a high accuracy of 84.54% and high AUC values
+}
